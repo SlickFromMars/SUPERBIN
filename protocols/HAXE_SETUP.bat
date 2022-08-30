@@ -20,6 +20,14 @@ haxelib git polymod https://github.com/MasterEric/polymod.git
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib git extension-webm https://github.com/KadeDev/extension-webm
 lime rebuild extension-webm windows
+haxelib install tjson
+haxelib install hxjsonast
+haxelib install hxCodec
+haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
+haxelib install hxcpp-debug-server
+
+echo.
+haxelib list
 
 echo.
 echo Setup complete.
