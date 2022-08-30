@@ -25,6 +25,11 @@ haxelib install hxjsonast
 haxelib install hxCodec
 haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
 haxelib install hxcpp-debug-server
+haxelib install slick_addons
+
+echo.
+echo Updating libaries...
+haxelib update
 
 echo.
 haxelib list
